@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { 
-  ComposedChart, Line, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, 
-  CartesianGrid, Legend, Area, AreaChart 
+import {
+  ComposedChart, Line, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
+  CartesianGrid, Area, AreaChart
 } from 'recharts';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <h1 style={{ textAlign: 'center', marginBottom: '30px' }}>Beep Saúde | Central de Inteligência Operacional</h1>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-        
+
         {/* Gráfico 1: Composição de Pacientes (Adulto vs Criança) */}
         <div style={{ background: '#1e293b', padding: '20px', borderRadius: '15px' }}>
           <h3>Perfil de Pacientes por Hora</h3>
