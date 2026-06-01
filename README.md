@@ -20,7 +20,3 @@ Este projeto foi construído com uma stack moderna e focada em performance:
 2.  **Análise Composta**: Uso de gráficos de área, barras e linhas para diferentes dimensões dos dados.
 3.  **Resumo de KPIs**: Cartões de indicadores rápidos para consulta imediata de totais.
 
-## 🚀 Como rodar localmente
-1. **Clone o repositório:**
-```bash
-   git clone [https://github.com/josehenriqueprogramador/beep-saude.git](https://github.com/josehenriqueprogramador/beep-saude.git)
