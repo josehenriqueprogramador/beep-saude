@@ -1,73 +1,26 @@
-# React + TypeScript + Vite
+# 🚀 Beep Saúde | Command Center Operacional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **Beep Saúde**, a central de inteligência desenvolvida para monitorar, analisar e otimizar a operação de saúde em tempo real. Este dashboard transforma dados brutos da nossa API em decisões estratégicas.
 
-Currently, two official plugins are available:
+## 📊 O que este projeto entrega?
+O Beep Saúde oferece uma visão 360º da operação, com foco em:
+*   **Monitoramento de Demanda**: Acompanhe o fluxo de pacientes adultos e crianças ao longo do dia.
+*   **Eficiência Operacional**: Comparativo direto entre o volume de trabalho (vacinas/coletas) e a necessidade de duplas de atendimento.
+*   **Diagnóstico de Gargalos**: Identificação visual de quando o tempo médio por atendimento afeta a produtividade da equipe.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
+Este projeto foi construído com uma stack moderna e focada em performance:
+*   **React + TypeScript**: Estrutura robusta e tipada.
+*   **Vite**: Build ultra rápido para desenvolvimento e produção.
+*   **Recharts**: Biblioteca de gráficos de alta performance para visualização de dados.
+*   **Axios**: Integração eficiente para consumo de dados da API.
 
-## React Compiler
+## 📈 Funcionalidades Principais
+1.  **Dashboard Dark Mode**: Interface otimizada para monitoramento contínuo, reduzindo a fadiga visual.
+2.  **Análise Composta**: Uso de gráficos de área, barras e linhas para diferentes dimensões dos dados.
+3.  **Resumo de KPIs**: Cartões de indicadores rápidos para consulta imediata de totais.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Como rodar localmente
+1. **Clone o repositório:**
+```bash
+   git clone [https://github.com/josehenriqueprogramador/beep-saude.git](https://github.com/josehenriqueprogramador/beep-saude.git)
